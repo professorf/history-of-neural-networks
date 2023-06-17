@@ -10,7 +10,9 @@ Every time I write a new research paper for a new audience I find my self rewrit
 
 # A Brief History of Neural Networks 
 
-(TBD)
+The history of neural network starts with McCulloch and Pitts (1943), who described a mathematical model for an artificial neuron and provided a mathematical proof that a network of artificial neurons, hereafter "nodes", could perform any logical operation and, therefore, theoretically any computation. Their work laid the foundation for later research in artificial neural networks. 
+
+The first implementation of a neural network is credited to Rosenblatt (1958). Rosenblatt named his network a "perceptron," and it consisted of two layers: an input layer and an output layer. Each node in the input layer was connected to every node in the output layer. The output nodes took the inputs, weighted them, summed the weighted inputs, and produced a result if the weighted sum exceeded a threshold. Essentially, each output node performed a task similar to linear regression, with the weights analogous to the coefficients in a regression equation. A perceptron could learn by adjusting the weights of the output nodes, akin to how one fits a regression model by modifying coefficients. Applications of perceptrons include pattern recognition tasks, such as image recognition, and learning linear functions. However, the perceptron's major drawback is its inability to handle non-linear input-output mappings, which many real-world tasks require. As a result, it cannot solve non-linear classification and regression tasks.
 
 
 # References
